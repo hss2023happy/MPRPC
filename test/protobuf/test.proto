@@ -1,0 +1,54 @@
+syntax ="proto3";
+package fixbug;
+
+option cc_generic_services =true;
+
+message ResultCode
+{
+    int32 errcode=1;
+    string errmsg =2;
+
+}
+message LoginRequest
+{
+    string name=1;
+    string pwd=2;
+
+}
+message LoginResponse
+{
+    ResultCode result=1;
+    bool success=2;
+
+}
+message GetFriendListRequest
+{
+    uint32 userid=1;
+}
+message User
+{
+
+    bytes name=1;
+    uint32 age=2;
+    enum Sex
+    {
+        MAN=0;
+        WOMAN=1;
+
+    }
+    Sex sex =3;
+
+}
+message GetFriendListResponse
+{
+    ResultCode result=1;
+    repeated User friend_list=2;//列表类型
+
+}
+//在protobuf里面定义描述rpc方法的类型
+service UserServiceRpc
+{
+
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc GetFriendLists(GetFriendListRequest) returns(GetFriendListResponse);
+}
