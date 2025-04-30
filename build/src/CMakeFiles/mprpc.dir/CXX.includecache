@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/mprpcconfig.h
+unordered_map
+-
+string
+-
+
+/home/ubuntu20/MPRPC/src/mprpcconfig.cc
+mprpcconfig.h
+/home/ubuntu20/MPRPC/src/mprpcconfig.h
+iostream
+-
+

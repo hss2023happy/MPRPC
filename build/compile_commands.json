@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/ubuntu20/MPRPC/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/ubuntu20/MPRPC/src/mprpcapplication.cc",
+  "file": "/home/ubuntu20/MPRPC/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/ubuntu20/MPRPC/src/mprpcconfig.cc",
+  "file": "/home/ubuntu20/MPRPC/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/ubuntu20/MPRPC/src/rpcprovider.cc",
+  "file": "/home/ubuntu20/MPRPC/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/example/callee",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/ubuntu20/MPRPC/example/callee/userservice.cc",
+  "file": "/home/ubuntu20/MPRPC/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/example/callee",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/ubuntu20/MPRPC/example/user.pb.cc",
+  "file": "/home/ubuntu20/MPRPC/example/user.pb.cc"
+}
+]

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/provider.dir/userservice.cc.o CMakeFiles/provider.dir/__/user.pb.cc.o  -o provider   -L/home/ubuntu20/MPRPC/lib 
+/usr/bin/g++  -g   CMakeFiles/provider.dir/userservice.cc.o CMakeFiles/provider.dir/__/user.pb.cc.o  -o ../../../bin/provider   -L/home/ubuntu20/MPRPC/lib  -Wl,-rpath,/home/ubuntu20/MPRPC/lib ../../../lib/libmprpc.so -lprotobuf 

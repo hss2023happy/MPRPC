@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named mprpc
+
+# Build rule for target.
+mprpc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mprpc
+.PHONY : mprpc
+
+# fast build rule for target.
+mprpc/fast:
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
+.PHONY : mprpc/fast
+
+#=============================================================================
 # Target rules for targets named provider
 
 # Build rule for target.
@@ -131,6 +144,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... mprpc"
 	@echo "... provider"
 .PHONY : help
 
