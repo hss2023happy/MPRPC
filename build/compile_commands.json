@@ -1,17 +1,22 @@
 [
 {
   "directory": "/home/ubuntu20/MPRPC/build/src",
-  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/ubuntu20/MPRPC/src/mprpcapplication.cc",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/ubuntu20/MPRPC/src/mprpcapplication.cc",
   "file": "/home/ubuntu20/MPRPC/src/mprpcapplication.cc"
 },
 {
   "directory": "/home/ubuntu20/MPRPC/build/src",
-  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/ubuntu20/MPRPC/src/mprpcconfig.cc",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/ubuntu20/MPRPC/src/mprpcconfig.cc",
   "file": "/home/ubuntu20/MPRPC/src/mprpcconfig.cc"
 },
 {
   "directory": "/home/ubuntu20/MPRPC/build/src",
-  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/ubuntu20/MPRPC/src/rpcprovider.cc",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/ubuntu20/MPRPC/src/rpcheader.pb.cc",
+  "file": "/home/ubuntu20/MPRPC/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/src",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/ubuntu20/MPRPC/src/rpcprovider.cc",
   "file": "/home/ubuntu20/MPRPC/src/rpcprovider.cc"
 },
 {

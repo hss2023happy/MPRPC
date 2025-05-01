@@ -1,1 +1,2 @@
-/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libmprpc.so -o ../../lib/libmprpc.so CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o   -L/home/ubuntu20/MPRPC/lib 
+/usr/bin/ar qc ../../lib/libmprpc.a  CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/mprpcconfig.cc.o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o
+/usr/bin/ranlib ../../lib/libmprpc.a

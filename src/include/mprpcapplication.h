@@ -6,7 +6,8 @@ class MprpcApplication
 public:
     static MprpcConfig m_config;
     static void Init(int argc, char **argv);
-    static MprpcApplication& GetInstancec();
+    static MprpcApplication& GetInstance();
+    static MprpcConfig& GetConfig();
  private:
 
     MprpcApplication(){}
