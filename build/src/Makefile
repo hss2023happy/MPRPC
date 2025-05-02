@@ -152,6 +152,33 @@ mprpcapplication.cc.s:
 	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cc.s
 .PHONY : mprpcapplication.cc.s
 
+mprpcchannel.o: mprpcchannel.cc.o
+
+.PHONY : mprpcchannel.o
+
+# target to build an object file
+mprpcchannel.cc.o:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
+.PHONY : mprpcchannel.cc.o
+
+mprpcchannel.i: mprpcchannel.cc.i
+
+.PHONY : mprpcchannel.i
+
+# target to preprocess a source file
+mprpcchannel.cc.i:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcchannel.cc.i
+.PHONY : mprpcchannel.cc.i
+
+mprpcchannel.s: mprpcchannel.cc.s
+
+.PHONY : mprpcchannel.s
+
+# target to generate assembly for a file
+mprpcchannel.cc.s:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcchannel.cc.s
+.PHONY : mprpcchannel.cc.s
+
 mprpcconfig.o: mprpcconfig.cc.o
 
 .PHONY : mprpcconfig.o
@@ -245,6 +272,9 @@ help:
 	@echo "... mprpcapplication.o"
 	@echo "... mprpcapplication.i"
 	@echo "... mprpcapplication.s"
+	@echo "... mprpcchannel.o"
+	@echo "... mprpcchannel.i"
+	@echo "... mprpcchannel.s"
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"

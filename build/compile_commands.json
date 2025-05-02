@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/ubuntu20/MPRPC/build/src",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/ubuntu20/MPRPC/src/mprpcchannel.cc",
+  "file": "/home/ubuntu20/MPRPC/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/src",
   "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/ubuntu20/MPRPC/src/mprpcconfig.cc",
   "file": "/home/ubuntu20/MPRPC/src/mprpcconfig.cc"
 },
@@ -27,6 +32,16 @@
 {
   "directory": "/home/ubuntu20/MPRPC/build/example/callee",
   "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/ubuntu20/MPRPC/example/user.pb.cc",
+  "file": "/home/ubuntu20/MPRPC/example/user.pb.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/example/caller",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/ubuntu20/MPRPC/example/caller/calluserservice.cc",
+  "file": "/home/ubuntu20/MPRPC/example/caller/calluserservice.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/example/caller",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/ubuntu20/MPRPC/example/user.pb.cc",
   "file": "/home/ubuntu20/MPRPC/example/user.pb.cc"
 }
 ]
