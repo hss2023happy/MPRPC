@@ -9,6 +9,10 @@
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -20,6 +24,12 @@ google/protobuf/message.h
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -62,6 +72,36 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
+../src/include/rpcprovider.h
+string
+-
+functional
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/service.h
+-
+muduo/net/TcpServer.h
+-
+muduo/net/EventLoop.h
+-
+muduo/net/InetAddress.h
+-
+muduo/net/TcpConnection.h
+-
+unordered_map
+-
+
+/home/ubuntu20/MPRPC/src/mprpcapplication.cc
+mprpcapplication.h
+/home/ubuntu20/MPRPC/src/mprpcapplication.h
+iostream
+-
+string
+-
+unistd.h
+-
+
 /home/ubuntu20/MPRPC/src/mprpcchannel.cc
 mprpcchannel.h
 /home/ubuntu20/MPRPC/src/mprpcchannel.h
@@ -83,4 +123,18 @@ mprpcapplication.h
 /home/ubuntu20/MPRPC/src/mprpcapplication.h
 unistd.h
 -
+mprpccontroller.h
+/home/ubuntu20/MPRPC/src/mprpccontroller.h
+
+/home/ubuntu20/MPRPC/src/mprpccontroller.cc
+mprpccontroller.h
+/home/ubuntu20/MPRPC/src/mprpccontroller.h
+
+/home/ubuntu20/MPRPC/src/rpcprovider.cc
+rpcprovider.h
+/home/ubuntu20/MPRPC/src/rpcprovider.h
+mprpcapplication.h
+/home/ubuntu20/MPRPC/src/mprpcapplication.h
+rpcheader.pb.h
+/home/ubuntu20/MPRPC/src/rpcheader.pb.h
 

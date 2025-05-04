@@ -28,4 +28,26 @@ int main(int argc,char **argv)
         std::cout<<"rpc login response error:"<<response.result().errmsg()<<std::endl;
     }
 
+    //演示调用远程发布的rpc方法Register
+    fixbug::RegisterRequest req;
+    req.set_id(312);
+    req.set_name("chen yq");
+    req.set_pwd("312");
+    fixbug::RegisterResponse rsp;
+
+    //以同步的方式发起rpc调用请求，等待返回结果
+    stub.Register(nullptr,&req,&rsp,nullptr);
+
+    //一次rpc调用完成，读调用的结果
+    if(0==rsp.result().errcode())
+    {
+        std::cout<<"rpc Register response success:"<<rsp.success()<<std::endl;
+    }
+    else
+    {
+        std::cout<<"rpc Register response error:"<<rsp.result().errmsg()<<std::endl;
+    }
+
+    return 0;
+
 }

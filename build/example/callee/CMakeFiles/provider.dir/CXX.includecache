@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../example/user.pb.h
+../example/friend.pb.h
 limits
 -
 string
@@ -49,9 +49,27 @@ google/protobuf/port_undef.inc
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
+
+../src/include/mprpcchannel.h
+google/protobuf/service.h
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/message.h
+-
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -76,15 +94,17 @@ muduo/net/TcpConnection.h
 unordered_map
 -
 
-/home/ubuntu20/MPRPC/example/callee/userservice.cc
+/home/ubuntu20/MPRPC/example/callee/friendservice.cc
 iostream
 -
 string
 -
-user.pb.h
-/home/ubuntu20/MPRPC/example/callee/user.pb.h
+friend.pb.h
+/home/ubuntu20/MPRPC/example/callee/friend.pb.h
 mprpcapplication.h
 /home/ubuntu20/MPRPC/example/callee/mprpcapplication.h
 rpcprovider.h
 /home/ubuntu20/MPRPC/example/callee/rpcprovider.h
+vector
+-
 

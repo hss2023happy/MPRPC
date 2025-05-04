@@ -152,12 +152,12 @@ src/clean: src/CMakeFiles/mprpc.dir/clean
 src/CMakeFiles/mprpc.dir/all:
 	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/depend
 	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu20/MPRPC/build/CMakeFiles --progress-num=4,5,6,7,8,9 "Built target mprpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu20/MPRPC/build/CMakeFiles --progress-num=4,5,6,7,8,9,10 "Built target mprpc"
 .PHONY : src/CMakeFiles/mprpc.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/mprpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/mprpc.dir/rule
@@ -179,12 +179,12 @@ src/CMakeFiles/mprpc.dir/clean:
 example/callee/CMakeFiles/provider.dir/all: src/CMakeFiles/mprpc.dir/all
 	$(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/depend
 	$(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu20/MPRPC/build/CMakeFiles --progress-num=10,11,12 "Built target provider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu20/MPRPC/build/CMakeFiles --progress-num=11,12,13 "Built target provider"
 .PHONY : example/callee/CMakeFiles/provider.dir/all
 
 # Build rule for subdir invocation for target.
 example/callee/CMakeFiles/provider.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 0
 .PHONY : example/callee/CMakeFiles/provider.dir/rule
@@ -211,7 +211,7 @@ example/caller/CMakeFiles/consumer.dir/all: src/CMakeFiles/mprpc.dir/all
 
 # Build rule for subdir invocation for target.
 example/caller/CMakeFiles/consumer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 example/caller/CMakeFiles/consumer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu20/MPRPC/build/CMakeFiles 0
 .PHONY : example/caller/CMakeFiles/consumer.dir/rule

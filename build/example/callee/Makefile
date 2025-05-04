@@ -125,59 +125,59 @@ provider/fast:
 	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
 .PHONY : provider/fast
 
-__/user.pb.o: __/user.pb.cc.o
+__/friend.pb.o: __/friend.pb.cc.o
 
-.PHONY : __/user.pb.o
-
-# target to build an object file
-__/user.pb.cc.o:
-	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
-.PHONY : __/user.pb.cc.o
-
-__/user.pb.i: __/user.pb.cc.i
-
-.PHONY : __/user.pb.i
-
-# target to preprocess a source file
-__/user.pb.cc.i:
-	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.i
-.PHONY : __/user.pb.cc.i
-
-__/user.pb.s: __/user.pb.cc.s
-
-.PHONY : __/user.pb.s
-
-# target to generate assembly for a file
-__/user.pb.cc.s:
-	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s
-.PHONY : __/user.pb.cc.s
-
-userservice.o: userservice.cc.o
-
-.PHONY : userservice.o
+.PHONY : __/friend.pb.o
 
 # target to build an object file
-userservice.cc.o:
-	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.o
-.PHONY : userservice.cc.o
+__/friend.pb.cc.o:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
+.PHONY : __/friend.pb.cc.o
 
-userservice.i: userservice.cc.i
+__/friend.pb.i: __/friend.pb.cc.i
 
-.PHONY : userservice.i
+.PHONY : __/friend.pb.i
 
 # target to preprocess a source file
-userservice.cc.i:
-	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.i
-.PHONY : userservice.cc.i
+__/friend.pb.cc.i:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.i
+.PHONY : __/friend.pb.cc.i
 
-userservice.s: userservice.cc.s
+__/friend.pb.s: __/friend.pb.cc.s
 
-.PHONY : userservice.s
+.PHONY : __/friend.pb.s
 
 # target to generate assembly for a file
-userservice.cc.s:
-	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.s
-.PHONY : userservice.cc.s
+__/friend.pb.cc.s:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.s
+.PHONY : __/friend.pb.cc.s
+
+friendservice.o: friendservice.cc.o
+
+.PHONY : friendservice.o
+
+# target to build an object file
+friendservice.cc.o:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.o
+.PHONY : friendservice.cc.o
+
+friendservice.i: friendservice.cc.i
+
+.PHONY : friendservice.i
+
+# target to preprocess a source file
+friendservice.cc.i:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.i
+.PHONY : friendservice.cc.i
+
+friendservice.s: friendservice.cc.s
+
+.PHONY : friendservice.s
+
+# target to generate assembly for a file
+friendservice.cc.s:
+	cd /home/ubuntu20/MPRPC/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/friendservice.cc.s
+.PHONY : friendservice.cc.s
 
 # Help Target
 help:
@@ -188,12 +188,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... provider"
-	@echo "... __/user.pb.o"
-	@echo "... __/user.pb.i"
-	@echo "... __/user.pb.s"
-	@echo "... userservice.o"
-	@echo "... userservice.i"
-	@echo "... userservice.s"
+	@echo "... __/friend.pb.o"
+	@echo "... __/friend.pb.i"
+	@echo "... __/friend.pb.s"
+	@echo "... friendservice.o"
+	@echo "... friendservice.i"
+	@echo "... friendservice.s"
 .PHONY : help
 
 
