@@ -31,6 +31,7 @@ Logger::Logger()
                 char time_buf[128]={0};
                 sprintf(time_buf,"%d:%d:%d=>",nowtm->tm_hour,nowtm->tm_min,nowtm->tm_sec);
                 msg.insert(0,time_buf);
+                msg.append("\n");
 
                 fputs(msg.c_str(),pf);
                 fclose(pf);

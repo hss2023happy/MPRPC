@@ -46,6 +46,22 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
+../src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/logger.h
+lockqueue.h
+../src/include/lockqueue.h
+string
+../src/include/string
+
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
@@ -107,4 +123,6 @@ rpcprovider.h
 /home/ubuntu20/MPRPC/example/callee/rpcprovider.h
 vector
 -
+logger.h
+/home/ubuntu20/MPRPC/example/callee/logger.h
 

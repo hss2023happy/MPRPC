@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/ubuntu20/MPRPC/build/src",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/ubuntu20/MPRPC/src/logger.cc",
+  "file": "/home/ubuntu20/MPRPC/src/logger.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/src",
   "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/ubuntu20/MPRPC/src/mprpcapplication.cc",
   "file": "/home/ubuntu20/MPRPC/src/mprpcapplication.cc"
 },
@@ -28,6 +33,11 @@
   "directory": "/home/ubuntu20/MPRPC/build/src",
   "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/ubuntu20/MPRPC/src/rpcprovider.cc",
   "file": "/home/ubuntu20/MPRPC/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/ubuntu20/MPRPC/build/src",
+  "command": "/usr/bin/g++   -I/home/ubuntu20/MPRPC/src/include -I/home/ubuntu20/MPRPC/example  -g   -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/ubuntu20/MPRPC/src/zookeeperutil.cc",
+  "file": "/home/ubuntu20/MPRPC/src/zookeeperutil.cc"
 },
 {
   "directory": "/home/ubuntu20/MPRPC/build/example/callee",

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/logger.h
+lockqueue.h
+../src/include/lockqueue.h
+string
+../src/include/string
+
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
@@ -92,43 +108,13 @@ muduo/net/TcpConnection.h
 unordered_map
 -
 
-/home/ubuntu20/MPRPC/src/mprpcapplication.cc
-mprpcapplication.h
-/home/ubuntu20/MPRPC/src/mprpcapplication.h
-iostream
+../src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
 -
 string
 -
-unistd.h
--
-
-/home/ubuntu20/MPRPC/src/mprpcchannel.cc
-mprpcchannel.h
-/home/ubuntu20/MPRPC/src/mprpcchannel.h
-string
--
-rpcheader.pb.h
-/home/ubuntu20/MPRPC/src/rpcheader.pb.h
-sys/types.h
--
-sys/socket.h
--
-errno.h
--
-arpa/inet.h
--
-netinet/in.h
--
-mprpcapplication.h
-/home/ubuntu20/MPRPC/src/mprpcapplication.h
-unistd.h
--
-mprpccontroller.h
-/home/ubuntu20/MPRPC/src/mprpccontroller.h
-
-/home/ubuntu20/MPRPC/src/mprpccontroller.cc
-mprpccontroller.h
-/home/ubuntu20/MPRPC/src/mprpccontroller.h
 
 /home/ubuntu20/MPRPC/src/rpcprovider.cc
 rpcprovider.h
@@ -137,4 +123,16 @@ mprpcapplication.h
 /home/ubuntu20/MPRPC/src/mprpcapplication.h
 rpcheader.pb.h
 /home/ubuntu20/MPRPC/src/rpcheader.pb.h
+logger.h
+/home/ubuntu20/MPRPC/src/logger.h
+
+/home/ubuntu20/MPRPC/src/zookeeperutil.cc
+zookeeperutil.h
+/home/ubuntu20/MPRPC/src/zookeeperutil.h
+mprpcapplication.h
+/home/ubuntu20/MPRPC/src/mprpcapplication.h
+semaphore.h
+-
+iostream
+-
 

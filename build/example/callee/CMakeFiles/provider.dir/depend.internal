@@ -6,6 +6,8 @@ example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
  /home/ubuntu20/MPRPC/example/friend.pb.h
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o
  ../example/friend.pb.h
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
