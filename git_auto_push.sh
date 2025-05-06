@@ -21,6 +21,6 @@ git commit -m "$commit_message"
 
 # 推送更改到远程仓库
 echo "推送更改到远程仓库..."
-git push origin main --force
+git push origin main
 
 echo "所有更改已成功提交并推送到 GitHub！"
