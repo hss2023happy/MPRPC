@@ -17,6 +17,7 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
  ../src/include/rpcheader.pb.h
+ ../src/include/zookeeperutil.h
  /home/ubuntu20/MPRPC/src/mprpcchannel.cc
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
  ../src/include/mprpcconfig.h
@@ -36,6 +37,7 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
  ../src/include/mprpccontroller.h
  ../src/include/rpcheader.pb.h
  ../src/include/rpcprovider.h
+ ../src/include/zookeeperutil.h
  /home/ubuntu20/MPRPC/src/rpcprovider.cc
 src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o
  ../src/include/mprpcapplication.h
