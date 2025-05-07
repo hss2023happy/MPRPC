@@ -49,17 +49,22 @@ mprpc/
 | CMake      | ≥ 3.10      | 项目构建工具                 |
 | GCC/G++    | ≥ 7.0       | 支持 C++11 标准              |
 
+---
+
 ### 安装示例（Ubuntu）
 
 ```bash
 sudo apt update
 sudo apt install libboost-all-dev cmake protobuf-compiler libprotobuf-dev
 
-## 编译方式
+```
+## 🛠️ 编译方式
 
 项目提供一键构建脚本：
 
 ```bash
 chmod +x autobuild.sh
 ./autobuild.sh
+
+```
 
