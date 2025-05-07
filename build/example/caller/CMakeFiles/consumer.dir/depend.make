@@ -5,9 +5,12 @@ example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: ../example/friend.pb.c
 example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: ../example/friend.pb.h
 
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../example/friend.pb.h
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../src/include/lockqueue.h
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../src/include/logger.h
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../src/include/mprpcapplication.h
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../src/include/mprpcchannel.h
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../src/include/mprpcconfig.h
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../src/include/mprpccontroller.h
+example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../src/include/rpcprovider.h
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: ../example/caller/callfriendservice.cc
 

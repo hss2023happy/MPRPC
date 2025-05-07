@@ -1,4 +1,3 @@
-#include <iostream>
 #include "mprpcapplication.h"
 #include "friend.pb.h"
 

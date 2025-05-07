@@ -1,8 +1,6 @@
-#include <iostream>
-#include <string>
-#include "user.pb.h"
 #include "mprpcapplication.h"
-#include "rpcprovider.h"
+#include "user.pb.h"
+
 class UserService : public fixbug::UserServiceRpc
 {
 public:

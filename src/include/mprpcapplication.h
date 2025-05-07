@@ -2,6 +2,16 @@
 #include "mprpcconfig.h"
 #include"mprpcchannel.h"
 #include "mprpccontroller.h"
+//friendservice.cc
+#include "rpcprovider.h"
+#include <vector>
+#include "logger.h"
+#include <iostream>
+#include <string>
+//userservice.cc
+#include "rpcprovider.h"
+
+
 
 
 //mprpc框架的初始化类

@@ -6,17 +6,23 @@ src/CMakeFiles/mprpc.dir/logger.cc.o
  ../src/include/logger.h
  /home/ubuntu20/MPRPC/src/logger.cc
 src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
+ ../src/include/rpcprovider.h
  /home/ubuntu20/MPRPC/src/mprpcapplication.cc
 src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
  ../src/include/rpcheader.pb.h
+ ../src/include/rpcprovider.h
  ../src/include/zookeeperutil.h
  /home/ubuntu20/MPRPC/src/mprpcchannel.cc
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
@@ -40,9 +46,12 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
  ../src/include/zookeeperutil.h
  /home/ubuntu20/MPRPC/src/rpcprovider.cc
 src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
+ ../src/include/rpcprovider.h
  ../src/include/zookeeperutil.h
  /home/ubuntu20/MPRPC/src/zookeeperutil.cc

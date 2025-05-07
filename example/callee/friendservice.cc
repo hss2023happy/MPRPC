@@ -1,10 +1,5 @@
-#include <iostream>
-#include <string>
 #include "friend.pb.h"
 #include "mprpcapplication.h"
-#include "rpcprovider.h"
-#include <vector>
-#include "logger.h"
 
 class FriendService : public fixbug::FriendServiceRpc
 {
@@ -29,7 +24,7 @@ public:
         std::vector<std::string> friendList=GetFriendsList(userid);
         response->mutable_result()->set_errcode(0);
         response->mutable_result()->set_errmsg("");
-        for(std::string &name:friendList)
+        for(std::string& name:friendList)
         {
             std::string *p=response->add_friends();
             *p=name;
