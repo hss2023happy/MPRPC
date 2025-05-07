@@ -22,16 +22,16 @@
 
 ## 项目结构
 mprpc/
-├── autobuild.sh # 一键构建脚本
-├── src/ # 核心框架代码
-│ ├── mprpcconfig.h # 配置模块
-│ ├── rpcprovider.h # RPC 服务端实现
-│ ├── rpcconsumer.h # RPC 客户端实现
-│ └── ...
-├── example/ # 示例代码（服务端、客户端）
-├── proto/ # Protobuf 接口定义文件
-├── CMakeLists.txt # 构建配置文件
-└── README.md # 项目说明
+├── autobuild.sh # 一键构建脚本|
+├── src/ # 核心框架代码|
+│ ├── mprpcconfig.h # 配置模块|
+│ ├── rpcprovider.h # RPC 服务端实现|
+│ ├── rpcconsumer.h # RPC 客户端实现|
+│ └── ...|
+├── example/ # 示例代码（服务端、客户端）|
+├── proto/ # Protobuf 接口定义文件|
+├── CMakeLists.txt # 构建配置文件|
+└── README.md # 项目说明|
 
 
 ---
